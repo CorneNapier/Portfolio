@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+* {
+    background-color: burlywood;
+}
+
+h1 {
+    font-family: 'Silkscreen', sans-serif;
+    text-align: center;   
+}
