@@ -79,13 +79,17 @@ main article {
     text-decoration: none;
 }
 
-#welc {
-    color: #DCC48E;
-}
-
 p {
     font-family: 'Bebas Neue', sans-serif;
     color: #EAEFD3;
+}
+
+footer {
+
+    padding: 20px 40px;
+    background-color: #505168;
+    align-items: center;
+
 }
 
 @media (max-width: 1100px) {
