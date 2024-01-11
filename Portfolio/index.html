@@ -13,16 +13,16 @@
         <h1>Welcome</h1>
         <nav>
             <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
 
     <main class="grid">
         <img src="https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt="image of mountains" height="500px">
-        <div class="welcome">
+        <div class="welcome" id="about">
             <h2>I am Corné Napier, a Software Developer</h2>
             <p>Since I can remember, I've always been fascinated with tech. From taking apart my xbox controller and
                 learning how to mod it, fixing a broken pc,
@@ -42,7 +42,7 @@
             </p>
         </div>
 
-        <h3>Articles</h3>
+        <h3 id="projects">Projects</h3>
 
         <article class="card">
             <h3>Breakout Game</h3>
@@ -52,15 +52,10 @@
         </article>
 
         <article class="card">
-            <h3>Article2</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione accusantium id quae magnam pariatur
-                eum, maxime atque fuga soluta quibusdam! Ut aperiam enim nulla accusantium nemo error quod temporibus
-                cupiditate, accusamus quisquam dolorum minus! Odit voluptas nobis repellat ipsa
-                laudantium veritatis atque amet aut sed fugit, quam iure pariatur fugiat.</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione accusantium id quae magnam pariatur
-                eum, maxime atque fuga soluta quibusdam! Ut aperiam enim nulla accusantium nemo error quod temporibus
-                cupiditate, accusamus quisquam dolorum minus! Odit voluptas nobis repellat ipsa
-                laudantium veritatis atque amet aut sed fugit, quam iure pariatur fugiat.</p>
+            <h3>Cheatsheet</h3>
+            <img src="/CheatSheet Resources/Images/HTML Tips.png" alt="screenshot of webpage">
+            <p>This page is a work in progress, consists of tips and tricks when using html. Serves as an reminder.</p>
+            <a href="/CheatSheet Resources/CheatSheet Index.html"><button type="button">Click Here</button></a>
         </article>
 
         <article class="card">
@@ -113,7 +108,7 @@
 
     </main>
 
-    <footer class="grid"></footer>
+    <footer class="grid" id="contact"></footer>
 
 </body>
 
