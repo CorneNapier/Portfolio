@@ -32,11 +32,10 @@ header nav {
     justify-self: right;
 }
 
-header nav button{
-    background-color: #27233A;
-    border: #27233A;
-    border-radius: 20%;
-    margin-left: 15px;
+header nav a{
+  color: #DCC48E;
+  text-decoration: none;
+  padding: 0px 10px;
 }
 
 main {
@@ -73,6 +72,12 @@ main article {
     grid-column: span 4;
     background-color: #505168;
     padding: 10px 20px;
+}
+
+main article button {
+    border-radius: 5px;
+    box-shadow: 1px 1px solid black;
+    cursor: pointer;
 }
 
 .card h3 {
