@@ -32,9 +32,10 @@ header nav {
     justify-self: right;
 }
 
-header nav a {
-    text-decoration: none;
-    color: #DCC48E;
+header nav button{
+    background-color: #27233A;
+    border: #27233A;
+    border-radius: 20%;
     margin-left: 15px;
 }
 
