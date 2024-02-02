@@ -1,0 +1,73 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+* {
+    background-color: #A9927D;
+}
+
+.timer {
+    background-color: #5E503F;
+    width: 490px;
+    height: 375px;
+    border-radius: 10px;
+    position: relative;
+    margin:auto auto;
+}
+
+#display {
+    display: flex;
+    background-color: #F2F4F3;
+    width: 490px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    opacity: 0.7;
+    font-family: 'Silkscreen', sans-serif;
+    color: #0A0908;
+    font-size: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.timerBtn {
+    display: inline-flex;
+    margin: 5px;
+    position: relative;
+    background-color: #8F8073;
+    color: #0A0908;
+    width: 150px;
+    height: 75px;
+    border-radius: 10px;
+    font-style: italic;
+    font-weight: 900;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    padding: 25px 10px;
+    cursor: pointer;
+}
+
+#clock {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    rotate: 6deg;
+    animation: rotate 30s linear infinite;
+    animation-delay: 1s;
+    animation-play-state: paused;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin:auto auto;
+    overflow: hidden;  
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(720deg);
+    }
+}
