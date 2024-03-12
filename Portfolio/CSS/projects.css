@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-
 body {
     margin: 0;
     font-family: 'Silkscreen', sans-serif;
@@ -42,28 +41,14 @@ header nav a{
 }
 
 main {
-    padding: 20px;
-    margin: 60px auto;
+    padding: 12px;
+    margin: 0px auto;
     max-width: 1200px;
 }
 
 main img {
     grid-column: span 6;
     width: 100%;
-}
-
-main .welcome {
-    grid-column: 8 / span 5;
-    text-align: center;
-    font-family: sans-serif;
-}
-
-main .welcome h2 {
-    color: #B3C0A4;
-}
-
-#profilePic {
-    border-radius: 50%;
 }
 
 main h3 {
@@ -75,6 +60,7 @@ main h3 {
 }
 
 main article {
+    margin: 0 auto;
     text-align: center;
     grid-column: span 4;
     background-color: #505168;
@@ -154,12 +140,14 @@ footer {
         grid-column: span 12;
     }
 
-    main .welcome {
-        grid-column: span 12;
-    }
-
     main article {
         grid-column: span 12;
+        margin: 0px auto;
+    }
+
+    main {
+        margin: 0px auto;
+        padding-bottom: 100px;
     }
 
     #details {

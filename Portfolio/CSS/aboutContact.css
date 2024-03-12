@@ -52,7 +52,7 @@ main .welcome {
     grid-column: 5 / span 4;
     text-align: center;
     font-family: sans-serif;
-    font-size: x-large;
+    font-size: large;
 }
 
 main h3 {
