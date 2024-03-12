@@ -22,7 +22,7 @@ header {
     align-items: center;
     position: sticky;
     top: 0;
-    z-index: 1000;    
+    z-index: 1000;  
 }
 
 header h1 {
@@ -47,13 +47,9 @@ main {
     max-width: 1200px;
 }
 
-main img {
-    grid-column: span 6;
-    width: 100%;
-}
 
 main .welcome {
-    grid-column: 8 / span 5;
+    grid-column: 5 / span 4;
     text-align: center;
     font-family: sans-serif;
 }
@@ -62,8 +58,8 @@ main .welcome h2 {
     color: #B3C0A4;
 }
 
-#profilePic {
-    border-radius: 50%;
+main .welcome p {
+    font-size: larger;
 }
 
 main h3 {
@@ -72,25 +68,6 @@ main h3 {
     font-size: 1.5rem;
     text-decoration: underline;
     color: #B3C0A4;
-}
-
-main article {
-    text-align: center;
-    grid-column: span 4;
-    background-color: #505168;
-    padding: 10px 20px;
-    border-radius: 5px;
-}
-
-main article button {
-    border-radius: 5px;
-    box-shadow: 1px 1px solid black;
-    cursor: pointer;
-}
-
-.card h3 {
-    color: #B3C0A4;
-    text-decoration: none;
 }
 
 p {
