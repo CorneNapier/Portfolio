@@ -7,7 +7,6 @@ body {
     margin: 0;
     font-family: 'Silkscreen', sans-serif;
     background-color: #27233A;
-    color: #fff;
 }
 
 .grid {
@@ -39,6 +38,11 @@ header nav a{
   color: #DCC48E;
   text-decoration: none;
   padding: 0px 10px;
+}
+
+header nav a:hover {
+    font-size: larger;
+    transition: ease-in-out;
 }
 
 main {

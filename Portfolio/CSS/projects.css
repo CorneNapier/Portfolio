@@ -40,6 +40,11 @@ header nav a{
   padding: 0px 10px;
 }
 
+header nav a:hover {
+    font-size: larger;
+    transition: ease-in-out;
+}
+
 main {
     padding: 12px;
     margin: 0px auto;
